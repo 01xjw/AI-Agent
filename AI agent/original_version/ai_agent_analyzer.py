@@ -24,7 +24,7 @@ from datetime import datetime
 import shlex
 
 # 导入分析工具
-tools_dir = Path("TOOLS/Auto_Anlyze_tool")
+tools_dir = Path(__file__).parent.parent.parent / "TOOLS" / "Auto_Anlyze_tool"
 if tools_dir.exists():
     sys.path.append(str(tools_dir))
     try:

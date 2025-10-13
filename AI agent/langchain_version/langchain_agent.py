@@ -5,6 +5,13 @@
 集成LangChain框架，提供更智能的对话、工具调用和工作流程管理
 """
 
+# Path setup for imports
+import sys
+from pathlib import Path
+_current_dir = Path(__file__).parent
+sys.path.insert(0, str(_current_dir.parent / 'original_version'))
+sys.path.insert(0, str(_current_dir.parent.parent / 'TOOLS' / 'Auto_Anlyze_tool'))
+
 import json
 import asyncio
 from typing import Dict, List, Optional, Any, Type

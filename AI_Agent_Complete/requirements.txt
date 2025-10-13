@@ -1,0 +1,27 @@
+# AI Agent LLM性能分析器 - 依赖列表
+
+# Web框架
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+websockets>=12.0
+
+# 数据处理和可视化
+pandas>=1.5.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# 配置文件处理
+pyyaml>=6.0
+
+# HTTP请求
+requests>=2.31.0
+
+# 其他工具
+python-multipart>=0.0.6
+
+# 可选：LangChain支持（如需要智能对话功能）
+# langchain>=0.0.350
+# langchain-openai>=0.0.2
+# langchain-community>=0.0.10
+
