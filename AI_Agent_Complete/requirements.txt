@@ -17,6 +17,9 @@ pyyaml>=6.0
 # HTTP请求
 requests>=2.31.0
 
+# 日期时间处理
+python-dateutil>=2.8.0
+
 # 其他工具
 python-multipart>=0.0.6
 

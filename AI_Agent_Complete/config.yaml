@@ -5,13 +5,13 @@
 # ============================================================
 
 # SGlang代码路径（必须配置）
-sglang_path: "SGlang"
+sglang_path: "D:/Desk/Xiong/AI/SGlang/python/sglang"
 # 示例：
 # - Windows: "D:/Code/sglang" 或 "C:/Users/xxx/sglang"
 # - Linux: "/home/user/sglang"
 
 # 模型文件路径（必须配置）
-models_path: "models"
+models_path: "D:/Desk/Xiong/AI"
 # 示例：
 # - Windows: "D:/Models" 或 "C:/Users/xxx/models"
 # - Linux: "/data/models"
